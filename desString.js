@@ -15,7 +15,7 @@ let counter = function(num) {
 // take way 1 asterisk per line throughout the loop, until 1 asterisk is left.
 //
 	let int = setInterval(() => {
-		console.log(asteriskArr.join(" "));
+		console.log(asteriskArr.join("  "));
 		if (asteriskArr.length !== 1) {
 			  asteriskArr.pop();
 		} else {
