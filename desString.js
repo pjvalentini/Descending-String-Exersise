@@ -14,12 +14,12 @@ let counter = function(num) {
 // add a condition that if the length of the array is not equal to 1 then
 // take way 1 asterisk per line throughout the loop, until 1 asterisk is left.
 //
-	let int = setInterval(() => {
+	let interval = setInterval(() => {
 		console.log(asteriskArr.join("  "));
 		if (asteriskArr.length !== 1) {
 			  asteriskArr.pop();
 		} else {
-			clearInterval(int);
+			clearInterval(interval);
 		}
 	}, 1000);
 };
